@@ -1,0 +1,25 @@
+Cache Settings
+--------------
+L1 (C,B,S): (10,6,1). Replacement policy: LFU. Prefetcher disabled.
+L2 (C,B,S): (15,6,3). Replacement policy: LFU. Strided prefetcher. Prefetch insertion policy: LIP.
+
+Cache Statistics
+----------------
+Reads: 315500
+Writes: 184500
+
+L1 accesses: 500000
+L1 hits: 407045
+L1 misses: 92955
+L1 hit ratio: 0.814
+L1 miss ratio: 0.186
+L1 average access time (AAT): 3.920
+
+L2 reads: 92955
+L2 writes: 35291
+L2 read hits: 85994
+L2 read misses: 6961
+L2 prefetches: 6422
+L2 read hit ratio: 0.925
+L2 read miss ratio: 0.075
+L2 average access time (AAT): 13.289

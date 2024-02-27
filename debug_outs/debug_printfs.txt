@@ -1,0 +1,27 @@
+printf("In L1, moving Tag: 0x%" PRIx64 " and Index: 0x%" PRIx64 " to MRU position", ...)
+printf(" and setting dirty bit\n");
+printf("\n");
+printf("set[%" PRIu64 "]: valid=%u, tag=0x%" PRIx64 ", ...)
+printf("Evict from %s: ", ...)
+printf("block with valid=1, dirty=%d, tag 0x%" PRIx64 " and index=0x%" PRIx64 "\n", ...)
+printf("block with valid=1, tag 0x%" PRIx64 " and index=0x%" PRIx64 "\n", ...)
+printf("block with valid=0 and index=0x%" PRIx64 "\n", ...)
+printf("Writing back dirty block with address 0x%" PRIx64 " to L2\n", ...)
+printf("L2 read hit\n");
+printf("L2 found block in cache on write\n");
+printf("In L2, moving Tag: 0x%" PRIx64 " and Index: 0x%" PRIx64 " to MRU position\n", ...)
+printf("Evict from %s: ", ...)
+printf("block with valid=1, dirty=%d, tag 0x%" PRIx64 " and index=0x%" PRIx64 "\n", ...)
+printf("block with valid=1, tag 0x%" PRIx64 " and index=0x%" PRIx64 "\n", ...)
+printf("block with valid=0 and index=0x%" PRIx64 "\n", ...)
+printf("L2 is disabled, writing through to memory\n");
+printf("L2 did not find block in cache on write, writing through to memory anyway\n");
+printf("L1 decomposed address 0x%" PRIx64 " -> Tag: 0x%" PRIx64 " and Index: 0x%" PRIx64 "\n", ...)
+printf("L2 decomposed address 0x%" PRIx64 " -> Tag: 0x%" PRIx64 " and Index: 0x%" PRIx64 "\n", ...)
+printf("L1 hit\n");
+printf("L1 miss\n");
+printf("L2 is disabled, treating this as an L2 read miss\n");
+printf("L2 read miss\n");
+printf("Prefetch block with address 0x%" PRIx64 " from memrory to L2\n", ...)
+printf("Time: %" PRIu64 ". Address: 0x%" PRIx64 ". Read/Write: %c\n", ...)
+printf("\n");
